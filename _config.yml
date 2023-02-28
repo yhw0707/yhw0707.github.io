@@ -108,7 +108,7 @@ author:
   avatar           : "/images/codcat.jpg"
   bio              : "study-ing"
   location         : "kr"
-  email            :
+  email            : "yhw0707 at naver.com"
   links:
     - label: "yhw0707@naver.com"
       icon: "fas fa-fw fa-envelope-square"
@@ -257,16 +257,16 @@ tag_archive:
   type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+ jekyll-archives:
+   enabled:
+    - categories
+    - tags
+   layouts:
+     category: archive-taxonomy
+     tag: archive-taxonomy
+   permalinks:
+     category: /categories/:name/
+     tag: /tags/:name/
 
 
 # HTML Compression
