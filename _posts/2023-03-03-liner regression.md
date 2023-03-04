@@ -1,5 +1,4 @@
 
-
 #Simple Liner Regression(Tensorflow)
 
 Cost and Hypothesis
