@@ -13,12 +13,12 @@ Cost and Hypothesis
 2.5와 0.5를 각각 초기값으로 지정
 
 ```
-x_data = [1,2,3,4,5]<br>
-y_data = [1,2,3,4,5]<br>
-<br>
-w = tf.Variable(2.9)<br>
-b = tf.Variable(0.5)<br>
-<br>
+x_data = [1,2,3,4,5]
+y_data = [1,2,3,4,5]
+
+w = tf.Variable(2.9)
+b = tf.Variable(0.5)
+
 hypothesis = x_data * w + b
 ```
 
@@ -38,14 +38,14 @@ learning_rate=0.01
 for 을 활용하여 Gradient Descent 계산하기
 
 ```python
-for i in range(100+1):<br>     
-    with tf.GradientTape() as tape:<br>  
-        hypothesis = w * x_data +b<br>  
-        cost = tf.reduce_mean(tf.square(hypothesis - y_data))<br>  
-        w_grad, b_grad = tape.gradient(cost, [w,b])<br>  
-        w.assign_sub(learning_rate * w_grad)<br>  
-        b.assign_sub(learning_rate * b_grad)<br>    
-        if i % 10 ==0:<br>  
+for i in range(100+1):     
+    with tf.GradientTape() as tape:  
+        hypothesis = w * x_data +b  
+        cost = tf.reduce_mean(tf.square(hypothesis - y_data))  
+        w_grad, b_grad = tape.gradient(cost, [w,b])
+        w.assign_sub(learning_rate * w_grad)
+        b.assign_sub(learning_rate * b_grad)    
+        if i % 10 ==0:
             print("{:5}|{:10.4f}|{:10.4f}|{:10.6f}".format(i, w.numpy(), b.numpy(), cost))
 ```
 
