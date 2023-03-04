@@ -1,8 +1,8 @@
 ---
 title: "tensorflow로 liner regression 학습 1"
 date: "2023-03-04"
-categories: Deep learning
-tags: tensorflow
+categories: [Deep learning]
+tags: [tensorflow]
 ---
 
 
