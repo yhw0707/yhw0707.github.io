@@ -8,7 +8,7 @@ tags: [tensorflow]
 
 Cost and Hypothesis
 
-<img src="{{site.url}}/images/2023-03-03/2023-03-04-i1.png" title="" alt="" width="100">
+<img src="./images/2023-03-03/2023-03-04-i1.png">
 
 2.5와 0.5를 각각 초기값으로 지정
 
