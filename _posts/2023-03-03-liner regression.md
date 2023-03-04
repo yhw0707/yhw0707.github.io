@@ -8,7 +8,7 @@ tags: [tensorflow]
 
 Cost and Hypothesis
 
-![h&c.png](C:\Users\yoonhyewon\Pictures\h&c.png)
+![alt text](./images/hc.png)
 
 2.5와 0.5를 각각 초기값으로 지정
 
