@@ -10,7 +10,7 @@ Cost and Hypothesis
 
 <img src="/images/2023-03-03/2023-03-04-i1.png" width="300" height="200">
 
-2.5와 0.5를 각각 초기값으로 지정
+2.5와 0.5를 각각 초기값으로 지정하기
 
 ```
 x_data = [1,2,3,4,5]
@@ -49,7 +49,8 @@ for i in range(100+1):
             print("{:5}|{:10.4f}|{:10.4f}|{:10.6f}".format(i, w.numpy(), b.numpy(), cost))
 ```
 
-
+결과
+<img src="/images/2023-03-03/2023-03-04-i2.png" width="350" height="330">
 
 
 
